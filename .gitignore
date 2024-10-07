@@ -1,0 +1,7 @@
+.idea/
+.venv/
+__pycache__
+.python-version
+build
+dist
+probit_socket_sdk.egg-info
