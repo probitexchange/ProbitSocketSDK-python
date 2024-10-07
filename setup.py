@@ -1,9 +1,14 @@
 from setuptools import setup, find_packages
 
+with open("README.md", "r", encoding='utf-8') as fh:
+    long_description = fh.read()
+
 setup(
     name='probit_socket_sdk',
     version='0.0.1',
     description='Software Development Kit designated for Probit Global Exchange',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     author='Probit Global',
     author_email='dev@probit.com',
     url='https://github.com/probitexchange/ProbitSocketSDK-python.git',
